@@ -15,3 +15,8 @@ a{
 ul{
     color:blueviolet ;
 }
+table
+th,
+td {
+    border:solid 1px;
+}
