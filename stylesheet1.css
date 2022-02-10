@@ -18,5 +18,15 @@ ul{
 table
 th,
 td {
+    border-collapse: collapse;
+}
+th,
+td {
     border:solid 1px;
+}
+.column-section {
+    color: red;
+}
+.row-section{
+    color: purple;
 }
