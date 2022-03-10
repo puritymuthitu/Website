@@ -1,6 +1,6 @@
 html {
     font-family: 'Times New Roman', Times, serif;
-    margin: 50px 40px;
+    margin: 100px 40px;
 }
 #page-title{
 	color: red;
@@ -29,7 +29,12 @@ html {
     position: absolute;
     top: 0;
     right: 20%;
-    margin: 10px 10px;
+    margin: 20px 10px;
     padding: 10px 10px;
     border-radius: 10px;
 }
+h2 {
+    color: red;
+    font-size: 24px;
+}
+  
