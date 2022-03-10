@@ -37,4 +37,7 @@ h2 {
     color: red;
     font-size: 24px;
 }
-  
+
+a visited {
+    color : red;
+}
