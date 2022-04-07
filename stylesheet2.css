@@ -1,0 +1,85 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: bisque;
+}
+.container{
+    padding: 20px;
+    overflow:hidden;
+    background-color: brown;
+}
+.container h1{
+    float: left;
+    margin-left: 10%;
+    color:white;
+}
+.container ul{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 60%;
+}
+.container a{
+    text-decoration: none;
+    color:white;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+.equation{
+    font-size: 65px;
+    border-radius: 3px;
+    text-align: center;
+    padding-top: 15%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.equation h1{
+    font-size: 80px;
+    display:inline;
+    padding: 20px;
+}
+.answer-options{
+   font-size: 200px;
+   margin-right: 10px;
+}
+.answer-options h1{
+    cursor: pointer;
+    color:rgb(255, 205, 223);
+    border-radius: 3px;
+    text-align: center;
+    width: 100%;
+}
+#option1{
+    background-color: fuchsia;
+    transition: 1s;
+}
+#option1:hover{
+    color:chartreuse;
+    background-color:cornflowerblue;
+
+}
+
+#option2{
+    background-color:darkgreen;
+    transition: 1s;
+}
+#option2:hover{
+    color:chocolate;
+    background-color:deepskyblue;
+
+}
+
+#option3{
+    background-color:darkred;
+    transition: 1s;
+}
+#option3:hover{
+    color:goldenrod;
+    background-color:blueviolet;
+
+}
