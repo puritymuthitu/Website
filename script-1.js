@@ -3,7 +3,8 @@ const option2 = document.getElementById("option2")
 const option3 = document.getElementById("option3")
 const alert = document.getElementById("option1")
 
-function generate_equation(){
+$(document).ready(function(){
+    $("#generate equation").click(function(){
 var num1 = Math.floor(Math.random() *21)
 var num2 = Math.floor(Math.random() *21)
 var dummyAnswer1 = Math.floor(Math.random() *21)
@@ -28,24 +29,25 @@ option3.innerHTML = switchAnswers[2];
 }
 
 option1.addEventAlertWarning("click", function(){
-    if option1.innerHTML == answer
+    if (option1.innerHTML == answer)
     generate_equation();
-    else
-    alert.warning();
+} 
+else{
+    'alert warning'();
 })
 
 option2.addEventAlertWarning("click", function(){
-    if option2.innerHTML == answer
+    if (option2.innerHTML == answer)
     generate_equation();
     else
     alert.warning();
 })
 
 option3.addEventAlertWarning("click", function(){
-    if option3.innerHTML == answer
+    if (option3.innerHTML == answer)
     generate_equation();
     else
     alert.warning();
 })
- generate_equation();
-
+});
+generate_equation();
