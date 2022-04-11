@@ -1,0 +1,28 @@
+Result Skip Results Iframe
+EDIT ON
+<div class="container">
+  <form class="form-inline">
+    <label class="sr-only" for="firstNumber">Name</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="firstNumber" placeholder="First Number"/>
+
+  <label class="sr-only" for="operation">Operation</label>
+  <select class="custom-select mr-sm-2" id="operation">
+    <option selected>Operation</option>
+    <option value="plus">+</option>
+    <option value="minus">-</option>
+    <option value="times">*</option>
+    <option value="divide">/</option>
+  </select>
+    
+    <label class="sr-only" for="secondNumber">Name</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="secondNumber" placeholder="Second Number"/>
+    
+    <button id="calculate" type="button" class="btn btn-primary my-1">Do the Math</button>
+  </form>
+  <!--Display answer line, hidden-->
+  <h2 id="answer-line" class="hidden">Your answer is: <span class="text-danger" id="answer"></span></h2>
+  <!--Display error, hidden-->
+  <div id="error" class="alert alert-danger hidden" role="alert">
+  One of your values is not a number. Please try again.
+</div>
+</div>
