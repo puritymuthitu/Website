@@ -1,5 +1,5 @@
 const countdown = () =>{
-    const countDate = new Date("May 10, 2022 00:00:00").getTime();
+    const countDate = new Date("May 20, 2022 00:00:00").getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
@@ -19,4 +19,5 @@ const countdown = () =>{
     document.querySelector (".second"). innerText = textSecond;
 };
 countdown();
+
 
